@@ -1,21 +1,12 @@
 settings =
 {
-	--[[
-	orientation = {
-		default = "portrait",
-		supported = { "portrait", },
-		-- supported = { "landscapeLeft", "landscapeRight" },
-		-- supported = { "landscapeLeft", "landscapeRight", "portrait", "portraitUpsideDown", },
-	},
-	--]]
 	excludeFiles =
-    {
-
-        ios = { "tessdataAndroid.zip" },
-        osx = { "tessdataAndroid.zip" },
-        win32 = { "tessdataAndroid.zip" },
-        tvos = { "tessdataAndroid.zip" },
-    },
+    	{
+        	ios = { "eng.traineddata" },
+        	osx = { "eng.traineddata" },
+        	win32 = { "eng.traineddata" },
+        	tvos = { "eng.traineddata" },
+    	},
 	iphone =
 	{
 		plist =
@@ -44,13 +35,13 @@ settings =
 		},
 	},
 	android =
-    {
-        usesPermissions =
-        {
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            "android.permission.READ_EXTERNAL_STORAGE",
-        },
-    },
+    	{	
+        	usesPermissions =
+        	{
+            		"android.permission.WRITE_EXTERNAL_STORAGE",
+            		"android.permission.READ_EXTERNAL_STORAGE",
+        	},
+    	},
 	plugins =
 	 {
 			 ["plugin.imageToText"] =
