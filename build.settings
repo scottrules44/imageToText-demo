@@ -7,6 +7,13 @@ settings =
         	win32 = { "eng.traineddata" },
         	tvos = { "eng.traineddata" },
     	},
+	android =
+	{
+		usesPermissions =
+		{
+		    "android.permission.WRITE_EXTERNAL_STORAGE",
+		},
+	},
 	iphone =
 	{
 		plist =
