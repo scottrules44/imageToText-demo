@@ -39,6 +39,7 @@ settings =
 			 ["plugin.imageToText"] =
 			 {
 					 publisherId = "tech.scotth",
+					 marketplaceId = "replace with your own"
 			 },
 	 },
 }
